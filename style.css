@@ -1,0 +1,415 @@
+/*=======================
+Common CSS
+==========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+
+/*=======================
+Header 
+==========================*/
+
+header{
+    background: #6047ec;
+}
+
+.header_area{
+    display: flex;
+    padding: 4px;
+}
+
+.logo_section{
+    width: 500px;
+    margin-top: 20px;
+}
+.menu_section{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.main_menu{
+    
+}
+.main_menu li{
+    list-style: none;
+    margin-right: 30px;
+}
+.main_menu li a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 3px;
+}
+
+.nav_item{
+    margin-top: 7px;
+}
+.nav_item a{
+    margin-right: 30px;
+}
+.nav_item a img{
+    width: 20px;
+}
+
+.nav_item .user{
+    width: 50px;
+    position: relative;
+    top: -11px;
+}
+
+.zero1{
+    position: relative;
+    background: red;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 1.5em;
+    color: #fff;
+    top: -11px;
+    left: -12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.zero2{
+    position: relative;
+    background: rgb(255, 230, 0);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 1.5em;
+    color: #fff;
+    top: -11px;
+    left: -12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/*========================
+course_rule
+==========================*/
+
+.course_rule{
+    
+}
+.rule_btn{
+    padding: 20px;
+}
+.course_content{
+    margin: 0 auto;
+    width: 55%;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 1px 4px 34px rgb(236 235 235);
+}
+
+.course_content h3{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.btn{
+    border: none;
+    background: #ff136f;
+    height: 58px;
+    width: 140px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'HIND SILIGURI';
+    margin-top: 14px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-weight:600;
+}
+
+
+
+/*========================
+welcome_section
+==========================*/
+
+
+.welcome_title h2{
+    font-size: 30px; 
+}
+h2 span{
+    color: #7e05ef;
+}
+.welcome_content{
+    box-shadow: 1px 10px 30px #e2e1e1;
+    margin: 30px;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 120px;
+    padding: 30px;
+    display: flex;
+    margin-left: 0;
+    padding-bottom: 50px;
+}
+.welcome_image{
+    width: 200px;
+}
+
+.welcome_image img{
+    border-radius: 10px;
+}
+.welcome_text{
+    margin-left: 30px;
+}
+
+.welcome_text h5{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+.status_bar{
+    width: 300px;
+    background: #ebedef;
+    height: 17px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+
+.welcome_text .percent{
+    font-size: 17px;
+    margin-left: 5px;
+    color: #444444;
+    display: inline-block;
+}
+.welcome_text p{
+    font-size: 24px;
+    color: #a7a7a7;
+}
+
+
+/*========================
+Contact
+==========================*/
+
+.contact{
+
+  
+}
+.bottom_call_icon{
+    position: fixed;
+    content: "";
+    right: 10px;
+    bottom: 0;
+}
+.contact img{
+    width: 70px;
+}
+/*=======================
+Footer 
+==========================*/
+footer{
+    background: #6047ec;
+    padding: 50px 0;
+    display: flex;
+}
+.footer_area{
+
+}
+
+.footer_top{
+
+}
+.footer_content{
+    display: flex;
+    line-height: 3em;
+}
+.footer_left{
+    width: 45%;
+}
+.footer_logo{
+
+}
+.footer_logo img{
+
+}
+.footer_link{
+
+}
+
+.footer_link i{
+    
+}
+.img_play{
+    margin-top: 20px;
+}
+.footer_middle{
+    width: 27%
+}
+.footer_middle h5{
+    font-size: 25px;
+    color: #fff;
+}
+.footer_link{
+
+}
+
+.footer_link li{
+    list-style: none;
+} 
+
+.footer_link li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+} 
+
+.footer_link li a:hover{
+    
+} 
+
+.social_link_icon{
+    display: flex;
+}
+
+.social_link_icon li{
+    list-style: none; 
+}
+
+.social_link_icon li i{
+    
+}
+
+.social_link_icon li a {
+    color: #fff;
+    font-size: 35px;
+    margin-right: 40px;
+}
+.footer_right{
+
+}
+.payment_img img{
+    width: 100%;
+}
+.copyright{
+    margin: 0 auto;
+    text-align: center;
+    color: #e0dfdf;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+/*=======================
+NEXT-STAP PAGE Design
+==========================*/
+
+
+
+/*=======================
+next_stap_section
+==========================*/
+
+
+
+.next_stap_section{
+    background: #6047ec;
+    padding: 30px 0;
+}
+.next_stap_area{
+    margin: 0 auto;
+    text-align: center;
+}
+.next_stap_area h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+
+
+
+/*=======================
+next_stap_section
+==========================*/
+
+.next_stap_rule{
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0 auto;
+    width: 60%;
+}
+.next_stap_area{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.list_style{
+    border-left: 3px dashed #bdbdbd;
+    list-style: none;
+}
+
+.list_style li{
+    text-align: left;
+}
+
+.list_style li .number{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(
+180deg
+,#684efb .01%,#5a00dd 100.01%);
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 50px;
+    font-size: 33px;
+    color: #fff;
+    text-align: center;
+    margin-left: -33px;
+    position: relative;
+    top: -35px;
+}
+.list_style li span{
+    margin-left: 30px;
+}
+
+
+.para{
+    width: 60%;
+    display: inline-block;
+}
+.ami{
+
+}
+
+span.number.ami {
+    display: inline-block;
+    position: relative;
+    top: -24px;
+}
+.tumi{
+    display: inline-block;
+    position: relative;
+    top: -26px;
+}
